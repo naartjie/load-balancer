@@ -24,7 +24,7 @@ open index.ts
 
 The load balancer takes a list of `fetch` functions, tracks statistics for each, and attempts to intelligently distribute requests to each.  The `fetch` functions can wrap logic for any kind of backend service, the example just makes simple HTTP proxies using `@fly/proxy` to example domains.
 
-This example is written in TypeScript. Compiler enforced types are really nice for algorithms like this, since the compiler itself can help limit complexity. Have a look at the `[webpack.fly.config.js](https://github.com/superfly/fly/blob/master/examples/load-balancer/webpack.fly.config.js)` to see how TypeScript works with Fly.
+This example is written in TypeScript. Compiler enforced types are really nice for algorithms like this, since the compiler itself can help limit complexity. Have a look at [`webpack.fly.config.js`](https://github.com/superfly/fly/blob/master/examples/load-balancer/webpack.fly.config.js) to see how TypeScript works with Fly.
 
 ### Backend health
 
